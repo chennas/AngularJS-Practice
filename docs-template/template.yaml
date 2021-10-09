@@ -30,13 +30,6 @@ spec:
           description: A description for the component
           ui:options:
             rows: 5
-        owner:
-          title: Owner
-          type: string
-          description: Owner for the component
-          default: user:siva.kumar2
-          ui:options:
-            rows: 5
     - title: Choose a repository location
       required:
         - repoUrl
