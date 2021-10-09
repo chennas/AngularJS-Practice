@@ -61,7 +61,7 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:'{{ parameters.allowedHosts }}'
+      action: '{{ publish:parameters.allowedHosts }}'
       input:
         allowedHosts: ['github.com','dev.azure.com']
         description: '{{ parameters.description }}'
