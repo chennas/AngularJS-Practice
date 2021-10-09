@@ -62,8 +62,8 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts: ['github.com']
-        description: 'This is {{ parameters.component_id }}'
+        allowedHosts: ['github.com','azure.com']
+        description: 'This is {{ parameters.description }}'
         repoUrl: '{{ parameters.repoUrl }}'
 
   output:
