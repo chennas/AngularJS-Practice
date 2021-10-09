@@ -64,7 +64,7 @@ spec:
       action: publish:github
       input:
         allowedHosts: ['github.com','azure.com']
-        description: 'This is {{ parameters.description }}'
+        description: '{{ parameters.description }}'
         repoUrl: '{{ parameters.repoUrl }}'
 
   output:
