@@ -41,7 +41,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
-              - azure.com
+              - dev.azure.com
 
   # This template is meant to be used on top of an existing tmeplate.
   # By adding the following and fetching from an absolute URL you can 
@@ -63,7 +63,7 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts: ['github.com','azure.com']
+        allowedHosts: ['github.com','dev.azure.com']
         description: '{{ parameters.description }}'
         repoUrl: '{{ parameters.repoUrl }}'
 
