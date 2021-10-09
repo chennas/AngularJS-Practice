@@ -30,7 +30,7 @@ spec:
           description: A description for the component
           ui:options:
             rows: 5
-    - title: Choose a location
+    - title: Choose a repository location
       required:
         - repoUrl
       properties:
@@ -41,6 +41,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+              - azure.com
 
   # This template is meant to be used on top of an existing tmeplate.
   # By adding the following and fetching from an absolute URL you can 
