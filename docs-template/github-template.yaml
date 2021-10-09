@@ -34,10 +34,6 @@ spec:
           title: Owner
           type: string
           description: Owner of the component
-        reposource:
-          title: reposource
-          type: string
-          description: reposource of the component          
     - title: Choose a repository location
       required:
         - repoUrl
