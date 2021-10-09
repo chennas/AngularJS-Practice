@@ -34,6 +34,10 @@ spec:
           title: Owner
           type: string
           description: Owner of the component
+        reposource:
+          title: reposource
+          type: string
+          description: reposource of the component          
     - title: Choose a repository location
       required:
         - repoUrl
@@ -64,7 +68,7 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:github
+      action: '{{ parameters.reposource }}'
       input:
         allowedHosts: ['github.com','dev.azure.com']
         description: '{{ parameters.description }}'
