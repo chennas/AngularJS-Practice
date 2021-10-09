@@ -68,7 +68,7 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:dev.azure.com
+      action: publish:azure
       input:
         allowedHosts: ['github.com','dev.azure.com']
         repoUrl: '{{ parameters.repoUrl }}'
