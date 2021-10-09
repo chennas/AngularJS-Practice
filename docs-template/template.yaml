@@ -4,6 +4,8 @@ metadata:
   name: doc-templates
   description: A collection of all documentation templates
 spec:
+  owner: gwc139/siva-shared-code
+  type: documentation
   targets:
     - ./docs-template/github-template.yaml
     - ./docs-template/azure-template.yaml
