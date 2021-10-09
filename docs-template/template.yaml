@@ -65,8 +65,6 @@ spec:
         allowedHosts: ['github.com','dev.azure.com']
         description: '{{ parameters.description }}'
         repoUrl: '{{ parameters.repoUrl }}'
-        repoVisibility: 'internal'
-        access: 'sivakumar2-cbre'
 
   output:
     remoteUrl: '{{ steps.publish.output.remoteUrl }}'
