@@ -70,6 +70,12 @@ spec:
         description: '{{ parameters.description }}'
         repoUrl: '{{ parameters.repoUrl }}'
         access: '{{ parameters.owner }}'
+        collaborators: [
+                          {
+                            access: 'admin',
+                            username: '{{ parameters.owner }}'
+                          }
+                      ]
 
   output:
     remoteUrl: '{{ steps.publish.output.remoteUrl }}'
